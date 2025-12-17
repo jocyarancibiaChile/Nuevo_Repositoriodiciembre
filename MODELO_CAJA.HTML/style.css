@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: center;
+
+}
+ul{
+    display: inline-flex;
+    justify-content: center;
+    padding: 0;
+    padding-inline-start: 0;
+}
+
+li{
+    list-style-type: none;
+    margin: left 10px;
+    margin-right: 10px;
+    border: solid pink 1px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.section1{
+    text-align: center;
+    
+}

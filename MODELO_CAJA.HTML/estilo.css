@@ -1,0 +1,17 @@
+#elemento {
+    border: 5px rgb(223, 241, 21) dotted; 
+    margin-top: 10 px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin.left: 20px;
+}
+
+.elemento2 {
+    border: 5px rgb(241, 21, 182) solid; 
+    margin-top: 10 px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin.left: 20px;
+}
+
+.flex

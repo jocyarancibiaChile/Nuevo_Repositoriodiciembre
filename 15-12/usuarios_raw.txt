@@ -1,0 +1,6 @@
+Ana;25;ana@ejemplo.com 
+Luis; abc ; luis@ejemplo.com
+;40; Marcela@ejemplo.com
+Pedro; 150; pedro@ejemplo.com
+Jose;30;jose@correo
+Maria;29;maria@ejemplo.com

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Tareas</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    li {
+      cursor: pointer;
+    }
+    li:hover {
+      text-decoration: line-through;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📝 Lista de Tareas</h1>
+
+  <!-- Campo de entrada -->
+  <input type="text" id="nueva-tarea" placeholder="Escribe una tarea">
+  
+  <!-- Botón para agregar tarea -->
+  <button id="agregar-btn">Agregar tarea</button>
+
+  <!-- Lista vacía -->
+  <ul id="lista-tareas"></ul>
+
+  <script>
+    // 3. Agregar tareas dinámicamente
+    $('#agregar-btn').click(function() {
+      const tarea = $('#nueva-tarea').val().trim();
+      if (tarea !== '') {
+        $('#lista-tareas').append('<li>' + tarea + '</li>');
+        $('#nueva-tarea').val('');
+      }
+    });
+
+    // 4. Eliminar tareas al hacer clic
+    $('#lista-tareas').on('click', 'li', function() {
+      $(this).remove();
+    });
+  </script>
+
+</body>
+</html>
